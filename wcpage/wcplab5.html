@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<center><title>Sign-Up For Mitski Blog</title></center>
+</head>
+<body>
+
+<center><h1>Sign-Up For Mitski Blog</h1></center>
+	<center><img src="mitski-1686684567-300x300.png" width="100" height="100" alt=""/></center>
+	This form will be used to create an account and collect information for visitors to the Mitski blog.
+	
+	<form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+	
+	<label for="firstname">First name:</label>
+	<input name="firstname" type="text" id="firstname" required="required">
+	<br>
+	<label for="lastname">Last name:</label>
+	<input name="lastname" type="text" id="lastname" required="required">
+	<br>
+	<label for="username">Username:</label>
+	<input name="username" type="text" required="required" id="username" pattern="[A-Za-z]{6-10}">
+	<br>
+	<label for="password">Password:</label>
+	<input name="password" type="password" id="password" required="required" pattern="[0-9A-Za-z]">
+	<br>
+	<label for="date">Date Of Birth:</label>
+	<input name="date" type="date" required="required" id="date">
+<br>
+	<label for="Tel">Telephone:</label>
+	<input name="Tel" type="Tel" required="required" id="Tel">	
+<br>
+		
+	<label for="email">Email:</label>
+		<input name="email" type="email" id="email" required="required">
+<br>
+		<label for="url"> Personal Website:</label>
+		<input type="url" id="url" required="required">
+	<br>
+	  <input type="submit"> <input type="reset">
+		
+<br>
+....Choose A Mitski Song:
+<table width="298">
+  <tr>
+    <td width="290"><label>
+      <input type="checkbox" name="Mitskisongs" value="checkbox" id="Mitskisongs_0">&quot;Nobody&quot;
+      </label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Mitskisongs" value="checkbox" id="Mitskisongs_1">
+		&quot;Francis Forever&quot;
+      Checkbox</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Mitskisongs" value="checkbox" id="Mitskisongs_2">
+		&quot;A Pearl&quot;
+    </label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Mitskisongs" value="checkbox" id="Mitskisongs_3">
+      &quot;I Bet On Losing Dogs&quot;
+    </label></td>
+  </tr>
+</table>
+<br>
+	<p>
+	...Where Did You Hear About This Site?
+	  <label>
+	<br>
+	    <input type="radio" name="Where" value="radio" id="Where_0">
+	    Social Media</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="Where" value="radio" id="Where_1">
+	    Online</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="Where" value="radio" id="Where_2">
+	    Ad</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="Where" value="radio" id="Where_3">
+	    Radio</label>
+	  <br>
+	  </p>
+</form>
+
+</body>
+</html>

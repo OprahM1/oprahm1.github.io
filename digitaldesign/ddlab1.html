@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>3.11 What's my name again</title>
+	<style>
+		/*Write your CSS code here*/
+		div {
+			width: 100px;
+			height: 100px;
+			border: 3px LightBlue;
+			font-size: 100px;
+		}
+
+		.Oclass {
+		 transition: width 2s, border-width 2s, background-color 2s;
+		 color: #811112;
+     transition: transform 2s;
+     background-color: #b29576;
+		}
+		.Oclass:hover {
+     transform: rotate(360deg);
+		}
+
+
+
+
+		.Pclass {
+			transition: width 2s, background-color 2s, border-width 2s; color: #cab187; background-color: #d4d4d4;
+		}
+		.Pclass:hover {
+			background-color: #ac3834;
+			width: 600px;
+			border-width: 20px;
+    } 
+
+
+
+
+    .Rclass {
+     width: 100px;
+     height: 100px;
+     background: #7a0f1a;
+     transition: width 2s;
+		}
+		.Rclass:hover {
+		background-color: gray;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    }
+
+
+
+
+    .Aclass {
+			transition: width 2s, background-color 2s, border-width 2s; color: #ac3834;
+    }
+		.Aclass:hover {
+			background-color: #d8c8b3;
+			width: 600px;
+			border-width: 20px;
+		}
+
+
+
+
+    .Hclass {
+			transition: width 2s, background-color 2s, border-width 2s; color: #8c6f49; background-color: #df6f62;
+		}
+
+		.Hclass:hover {
+			background-color: orange;
+			width: 600px;
+			border-width: 20px;
+
+
+
+
+	</style>
+
+</head>
+
+<body>
+	<!--Write your HTML code here -->
+
+	<p>Hover over each letter to see the transition effect:</p>
+
+	<div class="Oclass">O</div>
+
+	<div class="Pclass">P</div>
+
+  <div class="Rclass">R</div>
+
+	<div class="Aclass">A</div>
+
+  <div class="Hclass">H</div>
+
+</body>
+
+</html>
+</head>
